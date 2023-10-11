@@ -16,7 +16,6 @@
         "minLength": 1,
         "maxLength": 60,
         "example": "test-token",
-        "required": false,
         "description": "Auth Type",
         "helpSection": "API Key for ChromaDB Authorization"
       },
