@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "fields": [
+      {
+        "field": "AUTH_TYPE",
+        "displayName": "Auth Type for ChromaDB",
+        "type": "String",
+        "description": "Auth Type",
+        "default": "BEARER_TOKEN",
+        "helpSection": "Auth Type for ChromaDB"
+      },
+      {
+        "field": "API_KEY",
+        "displayName": "API Key for ChromaDB",
+        "type": "String",
+        "minLength": 1,
+        "maxLength": 60,
+        "example": "test-token",
+        "required": false,
+        "description": "Auth Type",
+        "helpSection": "API Key for ChromaDB Authorization"
+      },
+      {
+        "field": "SERVER_URL",
+        "displayName": "ChromaDB server url",
+        "type": "String",
+        "minLength": 4,
+        "maxLength": 60,
+        "required": true,
+        "description": "ChromaDB server url including the scheme",
+        "example": "http://10.0.0.0:8000",
+        "helpSection": "ChromaDB HTTP server url"
+      }
+    ]
+  }
