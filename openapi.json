@@ -4,6 +4,11 @@
     "title": "ChromaDB API",
     "version": "0.1.0"
   },
+  "servers": [
+    {
+      "url": "/"
+    }
+  ],
   "paths": {
     "/api/v1": {
       "get": {
