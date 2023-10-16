@@ -10,14 +10,14 @@
         "helpSection": "Auth Type for ChromaDB"
       },
       {
-        "field": "API_KEY",
-        "displayName": "API Key for ChromaDB",
+        "field": "BEARER_TOKEN",
+        "displayName": "API Token for accessing ChromaDB server",
         "type": "String",
         "minLength": 1,
         "maxLength": 60,
         "example": "test-token",
-        "description": "Auth Type",
-        "helpSection": "API Key for ChromaDB Authorization"
+        "description": "API Token",
+        "helpSection": "API Token for ChromaDB Authorization"
       },
       {
         "field": "SERVER_URL",
